@@ -1,0 +1,4 @@
+﻿  BankAccount.cpp
+c:\users\martin braun\source\repos\bankaccount\bankaccount\bankaccount.cpp(23): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  BankAccount.vcxproj -> C:\Users\Martin Braun\source\repos\BankAccount\Debug\BankAccount.exe
+  BankAccount.vcxproj -> C:\Users\Martin Braun\source\repos\BankAccount\Debug\BankAccount.pdb (Partial PDB)

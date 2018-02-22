@@ -1,0 +1,18 @@
+﻿  Source.cpp
+c:\users\martin braun\source\repos\ville\ville\ville.h(80): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
+c:\users\martin braun\source\repos\ville\ville\source.cpp(19): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(20): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(21): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(22): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(23): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(24): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(25): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(26): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(27): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(29): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\martin braun\source\repos\ville\ville\source.cpp(30): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Génération de code en cours...
+  Ignoré... (aucune modification pertinente détectée)
+  Ville.cpp
+  Ville.vcxproj -> C:\Users\Martin Braun\source\repos\Ville\Debug\Ville.exe
+  Ville.vcxproj -> C:\Users\Martin Braun\source\repos\Ville\Debug\Ville.pdb (Partial PDB)
