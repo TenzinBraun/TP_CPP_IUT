@@ -18,7 +18,7 @@ public:
 		this->message = message;
 	}
 
-	String concat(string firstMessage, string secondMessage) {
+	string concat(string firstMessage, string secondMessage) {
 		 return firstMessage + " " + secondMessage;
 	}
 
