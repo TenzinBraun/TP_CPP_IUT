@@ -1,0 +1,9 @@
+﻿  CardBattle.cpp
+d:\documents\semestre2\c++ tp\cardbattle\cardbattle\cardbattle.cpp(5): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+d:\documents\semestre2\c++ tp\cardbattle\cardbattle\deckofcard.h(2): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Génération de code en cours...
+  Ignoré... (aucune modification pertinente détectée)
+  DeckOfCard.cpp
+  Card.cpp
+  CardBattle.vcxproj -> D:\Documents\Semestre2\C++ TP\CardBattle\Debug\CardBattle.exe
+  CardBattle.vcxproj -> D:\Documents\Semestre2\C++ TP\CardBattle\Debug\CardBattle.pdb (Partial PDB)
