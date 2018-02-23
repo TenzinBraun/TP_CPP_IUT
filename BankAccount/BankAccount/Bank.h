@@ -9,15 +9,15 @@ using namespace std;
 
 class Bank {
 private:
-	string bankOwnerName;
-	string bankName;
+	String bankOwnerName;
+	String bankName;
 	BankOperation * bankOperations[10] = { NULL };
 
 public:
-	Bank(string bankOwner, string bankName) : bankOwnerName(bankOwner), bankName(bankName) { ; }
+	Bank(String bankOwner, String bankName) : bankOwnerName(bankOwner), bankName(bankName) { ; }
 	
 
-	void addNewOperation(string bankEntitled, double amount, bool credit) {
+	void addNewOperation(String bankEntitled, double amount, bool credit) {
 		for (int i = 0; i < 10; i++) {
 			if (bankOperations == NULL) {
 				bankOperations[i] = new BankOperation(bankEntitled, amount, credit);
