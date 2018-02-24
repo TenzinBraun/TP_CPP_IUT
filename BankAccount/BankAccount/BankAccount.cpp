@@ -11,7 +11,7 @@
 int main()
 {
 
-	Bank myBank("Martin", "La Banque Postale");
+	Bank myBank("Martif", "La Banque Postale");
 	myBank.addNewOperation("Retrait pour les courses", 50.0, false);
 	myBank.addNewOperation("Salaire du mois", 1280.75, true);
 	myBank.addNewOperation("Achat canape", 750.58, false);
