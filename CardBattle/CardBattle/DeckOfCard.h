@@ -80,7 +80,11 @@ public:
 		cardsStack[numberOfCardInStack + 3] = player2[cardCounterOfPlayer2 - 1];
 		
 		numberOfCardInStack += 4;
+		cardCounterOfPlayer1--;
+		cardCounterOfPlayer2--;
+		cout << "player 1 : " << cardCounterOfPlayer1 << "player 2 : " << cardCounterOfPlayer2 << "Pioche : " << numberOfCardInStack << endl;
 	}
+
 
 	void addCardsBelowPlayer1Deck(Card cardOfPlayer1, Card cardOfPlayer2) {
 		Card *temp;
@@ -102,10 +106,11 @@ public:
 			player1[numberOfCardInStack + 2 + i] = temp[i];
 		}
 
-		cardCounterOfPlayer1 += numberOfCardInStack / 2 + 1;
-		cardCounterOfPlayer2 -= numberOfCardInStack / 2 + 1;
-		cout << "player 1 : " << cardCounterOfPlayer1 << "player 2 : " << cardCounterOfPlayer2 << "Pioche : " << numberOfCardInStack << endl;
+		cardCounterOfPlayer1 += numberOfCardInStack + 1;
+		cardCounterOfPlayer2 -= 1;
 		numberOfCardInStack = 0;
+		cout << "player 1 : " << cardCounterOfPlayer1 << "player 2 : " << cardCounterOfPlayer2 << "Pioche : " << numberOfCardInStack << endl;
+
 		delete[] temp;
 	}
 
@@ -133,10 +138,11 @@ public:
 			player2[numberOfCardInStack + 2 + i] = temp[i];
 		}
 
-		cardCounterOfPlayer1 -= 3;
-		cardCounterOfPlayer2 += 3;
-		cout << "player 1 : " << cardCounterOfPlayer1 << "player 2 : " << cardCounterOfPlayer2 << "Pioche : " << numberOfCardInStack << endl;
+		cardCounterOfPlayer1 -= 1;
+		cardCounterOfPlayer2 += numberOfCardInStack + 1;
 		numberOfCardInStack = 0;
+		cout << "player 1 : " << cardCounterOfPlayer1 << "player 2 : " << cardCounterOfPlayer2 << "Pioche : " << numberOfCardInStack << endl;
+
 		delete[] temp;
 
 	}
