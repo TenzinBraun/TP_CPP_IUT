@@ -12,7 +12,7 @@ public:
 
 	float getBenefice() {
 		float counter = 0.0; 
-		for (int i = 0; i < students.size(); i++) {
+		for (unsigned i = 0; i < students.size(); i++) {
 			counter += students[i]->getPriceOfParty(priceOfParty);
 		}
 		return counter;
@@ -23,7 +23,7 @@ public:
 	}
 
 	void displayAllStudent() {
-		for (int i = 0; i < students.size(); i++) {
+		for (unsigned i = 0; i < students.size(); i++) {
 			students[i]->displayCharacter();
 		}
 	}
@@ -33,7 +33,7 @@ public:
 	}
 
 	~Party() {
-		for (int i = 0; i < students.size(); i++) {
+		for (unsigned i = 0; i < students.size(); i++) {
 			delete students[i];
 		}
 	}
