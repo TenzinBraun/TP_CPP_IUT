@@ -1,0 +1,7 @@
+﻿  BDE.cpp
+c:\users\martin braun\source\repos\bde\bde\party.h(15): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\martin braun\source\repos\bde\bde\party.h(26): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\martin braun\source\repos\bde\bde\party.h(36): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\martin braun\source\repos\bde\bde\member.h(9): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  BDE.vcxproj -> C:\Users\Martin Braun\source\repos\BDE\Debug\BDE.exe
+  BDE.vcxproj -> C:\Users\Martin Braun\source\repos\BDE\Debug\BDE.pdb (Partial PDB)
